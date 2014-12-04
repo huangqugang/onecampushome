@@ -8,27 +8,14 @@
 		$(this).removeClass("jhover");
 	});
 	/*
-	title2item 鼠标悬停效果
+	column2title2item 鼠标悬停效果
 	*/
 	$(".title2item-title").mouseover(function(){
 	  var name = $(this).attr("name");
 	  $(".title2item-title").removeClass("title2item-border")
 	  $(this).addClass("title2item-border");
-	  if(name=="title-lenish") {
-	    $(".lenish").show();
-		$(".view").hide();
-		$(".person").hide();
-	  }
-	  if(name=="title-view") {
-	    $(".lenish").hide();
-		$(".person").hide();
-	    $(".view").show();
-	  }
-	  if(name=="title-person") {
-	    $(".lenish").hide();
-		$(".view").hide();
-	    $(".person").show();
-	  }
+          $("."+name).siblings(".column-cnt").hide();
+	  $("."+name).show();
 	});
 });
 
