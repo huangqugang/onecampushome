@@ -1126,13 +1126,13 @@ color:#7d7d7d;
 */
 .title2item-title {
   margin-left: 20px;
+  float:left;
 }
 
 .title2item-border {
   background-color: #f3f2f3;
   border-top: 3px solid green;
 }
-
-.title2item-tag-a {
-  text-decoration: none; 
+.div-display {
+  display: none;
 }

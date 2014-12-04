@@ -8,13 +8,13 @@
 		$(this).removeClass("jhover");
 	});
 	/*
-	column2title2item 鼠标悬停效果
+	column鼠标悬停效果
 	*/
 	$(".title2item-title").mouseover(function(){
 	  var name = $(this).attr("name");
-	  $(".title2item-title").removeClass("title2item-border")
+	  $(this).siblings("div").removeClass("title2item-border")
 	  $(this).addClass("title2item-border");
-          $("."+name).siblings(".column-cnt").hide();
+	  $("."+name).siblings(".column-cnt").hide();
 	  $("."+name).show();
 	});
 });
