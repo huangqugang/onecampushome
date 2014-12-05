@@ -435,7 +435,6 @@ a:hover{ color:#8dbf59 !important;}
 }
 .column3 .column-cnt{
 	height:194px;
-	padding-top:16px;
 	padding-left:20px;
 	border:1px solid #e7e7e7;
 	border-bottom:1px solid #c1c1c1;
@@ -681,13 +680,17 @@ a:hover{ color:#8dbf59 !important;}
 /* link */
 
 /* list */
-.list1{ 
+.list1{
   width:238px;
-  height:193px;
+  height: 190px;
   margin-right:3px;
 }
 .list1-bg {
-  background-color: #ffffff
+  background: #ffffff;
+}
+.list1-tag-a {
+  color: #515151;
+  margin-top: 8px;
 }
 .list1 .list-title{
 	height:34px;
@@ -696,6 +699,8 @@ a:hover{ color:#8dbf59 !important;}
 	line-height:34px;
 	text-indent:14px;
 	color:#535353;
+	margin-left: 50px;
+	margin-top: 10px;
 }
 .list1 li{
 	*float:left;
