@@ -681,7 +681,14 @@ a:hover{ color:#8dbf59 !important;}
 /* link */
 
 /* list */
-.list1{ width:238px; margin-right:3px;}
+.list1{ 
+  width:238px;
+  height:193px;
+  margin-right:3px;
+}
+.list1-bg {
+  background-color: #ffffff
+}
 .list1 .list-title{
 	height:34px;
 	font-size:16px;
